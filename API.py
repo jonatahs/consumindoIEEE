@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import pyodbc
 # url com apikey
-url = 'http://ieeexploreapi.ieee.org/api/v1/search/articles?apikey=whpwmy7cp2v2gbeq5pkhfgas&format=json&max_records=250&start_record=1&sort_order=asc&sort_field=article_number&article_title=big+data&publication_title=big+data'
+url = 'http://ieeexploreapi.ieee.org/api/v1/search/articles?apikey=SUA_CHAVE_AQUI&format=json&max_records=250&start_record=1&sort_order=asc&sort_field=article_number&article_title=big+data&publication_title=big+data'
 
 # testando resposta da api
 resposta = requests.get(url)
